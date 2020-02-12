@@ -1,0 +1,104 @@
+# Exported from Fuse 2017.1.0
+
+newmtl Glove
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d testChar_Glove_Opacity.png
+map_Kd testChar_Glove_Diffuse.png
+adobe_map_normal testChar_Glove_Normal.png
+map_Ks testChar_Glove_Specular.png
+adobe_map_shininess testChar_Glove_Gloss.png
+
+newmtl Top
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d testChar_Top_Opacity.png
+map_Kd testChar_Top_Diffuse.png
+adobe_map_normal testChar_Top_Normal.png
+map_Ks testChar_Top_Specular.png
+adobe_map_shininess testChar_Top_Gloss.png
+
+newmtl Hat
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d testChar_Hat_Opacity.png
+map_Kd testChar_Hat_Diffuse.png
+adobe_map_normal testChar_Hat_Normal.png
+map_Ks testChar_Hat_Specular.png
+adobe_map_shininess testChar_Hat_Gloss.png
+
+newmtl Bottom
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d testChar_Bottom_Opacity.png
+map_Kd testChar_Bottom_Diffuse.png
+adobe_map_normal testChar_Bottom_Normal.png
+map_Ks testChar_Bottom_Specular.png
+adobe_map_shininess testChar_Bottom_Gloss.png
+
+newmtl Shoes
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d testChar_Shoes_Opacity.png
+map_Kd testChar_Shoes_Diffuse.png
+adobe_map_normal testChar_Shoes_Normal.png
+map_Ks testChar_Shoes_Specular.png
+adobe_map_shininess testChar_Shoes_Gloss.png
+
+newmtl Body
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d testChar_Body_Opacity.png
+map_Kd testChar_Body_Diffuse.png
+adobe_map_normal testChar_Body_Normal.png
+map_Ks testChar_Body_Specular.png
+adobe_map_shininess testChar_Body_Gloss.png
+
