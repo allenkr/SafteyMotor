@@ -5,7 +5,7 @@
     "name": "spr_bg_road",
     "For3D": false,
     "HTile": false,
-    "VTile": false,
+    "VTile": true,
     "bbox_bottom": 255,
     "bbox_left": 57,
     "bbox_right": 201,
