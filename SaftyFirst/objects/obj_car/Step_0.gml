@@ -9,11 +9,11 @@ if (timer > 0)
 else if(!ran){
 	loc = irandom_range(0,1);
 	if(loc == 0 && left){
-		sprite_index = spr_car_right;
+		sprite_index = sprite_truck_right;
 		ran = true;
 	}
 	else if(loc == 0 && right){
-		sprite_index = spr_car_left;
+		sprite_index = sprite_truck_left;
 		ran = true;
 	}
 }
@@ -25,5 +25,19 @@ if(ran){
 	else{
 		proccessLineChange();
 	}
+if (y < -256)
+{
+pos = irandom_range(0,1);
+if(pos == 0){
+	left = true;
+	x = 352;
+	y = 672;		
+}
+if(pos == 1){
+	right = true;
+	x = 672;
+	y = 672;	
+}
+}
 }
 

@@ -15,15 +15,15 @@ pos = irandom_range(0,1);
 print("pos is: ", pos);
 if(pos == 0){
 	left = true;
-	x = 224;
-	y = 512;		
+	x = 352;
+	y = 672;		
 }
 if(pos == 1){
 	right = true;
-	x = 544;
-	y = 512;	
+	x = 672;
+	y = 672;	
 }
 
 
 direction = -90;
-speed = irandom_range(-1.9,-1);
+speed = -3//irandom_range(-1.9,-1);

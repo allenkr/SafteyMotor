@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0e41ab40-6ade-4c2d-9f21-36985fca9d75",
+            "Value": {
+                "id": "e878f1b7-1169-4980-92cd-9dedf75d6ba9",
+                "resourcePath": "sprites\\better_idea\\better_idea.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1e948d6b-bc66-41d1-86b5-38c5073f52cb",
             "Value": {
                 "id": "7a73b0e1-6d30-4adb-a3ab-7c7fd46415de",
@@ -55,6 +63,14 @@
             }
         },
         {
+            "Key": "2a3ada40-1e12-49c9-b1eb-e73fb51b4c4e",
+            "Value": {
+                "id": "a29d39b6-676a-4f6b-977f-813de5810919",
+                "resourcePath": "sprites\\sprite_truck_right\\sprite_truck_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "30dce372-f179-44d0-81ef-c413b8fc7079",
             "Value": {
                 "id": "b47c36da-14a9-4a85-9dfe-4c96333454ac",
@@ -68,6 +84,14 @@
                 "id": "5ff4b653-39b0-4eb2-ac76-18e9aed4a9e2",
                 "resourcePath": "views\\3c7b619b-ca14-4071-a371-b6a71c76cb94.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3fefdc81-696c-4bfa-80b1-28ae9456699c",
+            "Value": {
+                "id": "301e44dc-8602-46c4-8d15-a7a239516b5c",
+                "resourcePath": "sprites\\sprite_truck_left\\sprite_truck_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -132,6 +156,14 @@
                 "id": "3896c268-bdeb-4ad0-b946-7bd823162821",
                 "resourcePath": "views\\6643b457-2c4d-4a17-bb60-f5a6f0b63fe2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "67a37b23-d46e-4ef6-b022-7378c405939a",
+            "Value": {
+                "id": "908ba314-fae6-497d-b3bf-965561a474bf",
+                "resourcePath": "sprites\\sprite7\\sprite7.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -220,6 +252,14 @@
                 "id": "4e1a0f58-f74b-439d-a90d-c26d81cd937b",
                 "resourcePath": "views\\b45876f6-6b5d-4d74-9532-cc036b920ca5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b8ba6f0e-ac79-4a2e-92a2-2410a9b82ffa",
+            "Value": {
+                "id": "cf0ea54e-72d2-43da-a6af-432c6f56c669",
+                "resourcePath": "sprites\\sprite_truck\\sprite_truck.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
