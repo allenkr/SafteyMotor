@@ -43,3 +43,4 @@ if (motorcycleSpeed < 0)
 	layer_vspeed(lay_id, -motorcycleSpeed);
 //else
 	//layer_vspeed(lay_id, gear);
+	
