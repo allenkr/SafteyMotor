@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "a356ac4f-0dc3-4ab3-9c8a-cfc604e18518",
+            "Value": {
+                "id": "6783ed33-c6e9-4a9a-b1a5-e2d9c0bde48a",
+                "resourcePath": "datafiles_yy\\room_highway.yy.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "a489fa68-5967-4575-ab03-a19afd753c6d",
             "Value": {
                 "id": "c76f9a0e-1b21-4949-9ab9-f005cffc56a3",

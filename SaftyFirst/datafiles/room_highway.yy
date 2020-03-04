@@ -10,7 +10,8 @@
         "69caacb4-801c-4a92-bcfb-b40b78ecea7d",
         "36c3b187-cbe4-4be4-93e3-a33ee5b8777d",
         "277f77f1-7d6b-4a12-9b1c-fbe92b5dd34d",
-        "11daf895-8957-4bb6-8832-3e8c0524111d"
+        "11daf895-8957-4bb6-8832-3e8c0524111d",
+        "aa2e0abc-3219-4203-ad26-2d6b58aed35c"
     ],
     "IsDnD": false,
     "layers": [
@@ -59,7 +60,6 @@
 {"name": "inst_1C2EA57B","id": "277f77f1-7d6b-4a12-9b1c-fbe92b5dd34d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1C2EA57B","objId": "e4bc1473-c4dd-4542-86c1-3b9509eaa3a0","properties": null,"rotation": 0,"scaleX": 0.375,"scaleY": 3,"mvc": "1.1","x": 160,"y": 384},
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 {"name": "inst_181D547C","id": "11daf895-8957-4bb6-8832-3e8c0524111d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_181D547C","objId": "7ec9c56d-ef53-4eaa-83e8-32c769688ccf","properties": null,"rotation": 0,"scaleX": 6,"scaleY": 6.5,"mvc": "1.1","x": 320,"y": 64}
 =======
 {"name": "inst_181D547C","id": "11daf895-8957-4bb6-8832-3e8c0524111d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_181D547C","objId": "7ec9c56d-ef53-4eaa-83e8-32c769688ccf","properties": null,"rotation": 0,"scaleX": 6,"scaleY": 6.5,"mvc": "1.1","x": 320,"y": -288},
@@ -68,9 +68,6 @@
 =======
 {"name": "inst_181D547C","id": "11daf895-8957-4bb6-8832-3e8c0524111d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_181D547C","objId": "7ec9c56d-ef53-4eaa-83e8-32c769688ccf","properties": null,"rotation": 0,"scaleX": 6,"scaleY": 6.5,"mvc": "1.1","x": 320,"y": -288}
 >>>>>>> parent of a4153e9... committing motorcycle updates to pull updated version
-=======
-{"name": "inst_181D547C","id": "11daf895-8957-4bb6-8832-3e8c0524111d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_181D547C","objId": "7ec9c56d-ef53-4eaa-83e8-32c769688ccf","properties": null,"rotation": 0,"scaleX": 6,"scaleY": 6.5,"mvc": "1.1","x": 320,"y": -288}
->>>>>>> parent of 3dac28c... Modified textbox a little
             ],
             "layers": [
 
