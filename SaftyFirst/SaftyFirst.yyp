@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "5fb681f3-edaf-4e67-84bf-a43a0a80eb77",
+            "Value": {
+                "id": "89469778-a216-426a-a81e-33bf9971020a",
+                "resourcePath": "objects\\obj_game_controller\\obj_game_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "617da21b-e973-4b9f-96b9-ca6a41ef4e64",
             "Value": {
                 "id": "d42788a2-4b8c-4480-b25e-95974d9e125f",
@@ -271,11 +279,27 @@
             }
         },
         {
+            "Key": "6b108e14-4582-4fae-95e8-e7c37287b40e",
+            "Value": {
+                "id": "cf75c09c-5338-4871-9b0b-7b0006334699",
+                "resourcePath": "objects\\obj_textbox\\obj_textbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6c0fc2c3-c84a-4b0b-a18d-5d10fadad476",
             "Value": {
                 "id": "96ddc2cf-2116-4222-9de8-aa6df10001e6",
                 "resourcePath": "views\\6c0fc2c3-c84a-4b0b-a18d-5d10fadad476.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6e95454c-cbbe-4b73-a8ad-179891673bd9",
+            "Value": {
+                "id": "43797f00-8f96-4640-bed8-ed706c1c51e3",
+                "resourcePath": "sprites\\spr_textbox\\spr_textbox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -447,6 +471,14 @@
             }
         },
         {
+            "Key": "bd3dc7cd-dedc-4dcd-a74c-6f61d8e9622b",
+            "Value": {
+                "id": "b1380495-fe2d-4c10-a1b2-ae67075409e2",
+                "resourcePath": "scripts\\game_controller\\game_controller.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c27fc86a-7708-4c26-a8d1-c0e0a874cd4e",
             "Value": {
                 "id": "599cfdad-ad73-4f7f-8961-222b2a010aba",
@@ -559,6 +591,14 @@
             }
         },
         {
+            "Key": "f329e52d-618c-4cea-884a-90e7cd87ddb9",
+            "Value": {
+                "id": "f9243720-bf65-4c9a-8e1b-05dc81f059c9",
+                "resourcePath": "fonts\\fnt_textbox\\fnt_textbox.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "6480d943-c034-4234-a6da-e9f5733c392d",
@@ -585,7 +625,8 @@
     ],
     "script_order": [
         "4ab081e0-69a9-4bf4-8c64-c78baaa3b6c9",
-        "02ecc80d-938e-4d44-80a7-67429de70c3d"
+        "02ecc80d-938e-4d44-80a7-67429de70c3d",
+        "bd3dc7cd-dedc-4dcd-a74c-6f61d8e9622b"
     ],
     "tutorial": ""
 }
