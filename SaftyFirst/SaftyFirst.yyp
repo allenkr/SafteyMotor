@@ -367,14 +367,6 @@
             }
         },
         {
-            "Key": "8de56021-676a-46fe-8682-e2a8e260a24f",
-            "Value": {
-                "id": "72799e24-6e91-438f-abe5-4da7eff8a1b2",
-                "resourcePath": "rooms\\room_highway\\room_highway.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "91997fca-1975-4c41-8702-3e86c10d416c",
             "Value": {
                 "id": "719de056-074c-45f5-8ea1-a8479c65dbef",

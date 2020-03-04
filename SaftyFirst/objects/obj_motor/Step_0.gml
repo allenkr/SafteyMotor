@@ -23,12 +23,8 @@ if(keyboard_check(ord("S"))){ //down
 }
 //gear shifts
 if(keyboard_check(ord("R"))){ //shift up
-if (gear < 5 && canShift)
-	{
-		canShift = false;
+	if (gear < 5)
 		gear++;
-		Invoke("resetGearShift", 2);
-	}
 }
 if(keyboard_check(ord("F"))){ //shift down
 	if (gear > 1)
@@ -37,8 +33,6 @@ if(keyboard_check(ord("F"))){ //shift down
 		motorcycleSpeed = gear*-2;
 	}
 }
-
-
 
 //APPLY MOVEMENT
 //if (!(y + motorcycleSpeed > lowerBound || y + motorcycleSpeed < upperBound))
