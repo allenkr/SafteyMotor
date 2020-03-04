@@ -21,9 +21,13 @@ else if(!ran){
 if(ran){
 	if(timer2>0){
 		timer2--;	
+		currLaneChange = 0;
 	}
 	else{
+		currLaneChange += 5;
 		proccessLineChange();
 	}
+	
+	y -= 5;
 }
 

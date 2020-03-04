@@ -11,17 +11,19 @@ randomize();
 timer = room_speed *  irandom_range(0,5); 
 timer2 = room_speed *  irandom_range(0.5,2); 
 
+laneChangeDist = 160;
+currLaneChange = 0;
+
 pos = irandom_range(0,1);
-print("pos is: ", pos);
 if(pos == 0){
 	left = true;
-	x = 224;
-	y = 512;		
+	x = -32;
+	y = 608;		
 }
 if(pos == 1){
 	right = true;
-	x = 544;
-	y = 512;	
+	x = 480;
+	y = 416;	
 }
 
 
