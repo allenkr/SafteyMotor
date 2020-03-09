@@ -9,7 +9,7 @@ lowerBound = 600;
 collided = 0;
 paused = false;
 
-start_text = "You're on your way back home! Ride safely! Hit tab to start!                          A- left S-down W- up D- right                     Tab to Pause ";
+start_text = "You're on your way back home! Ride safely! Hit tab to start!  A- left S-down W- up D- right R- to go faster                     Tab to Pause ";
 textbox = instance_create_layer(x,y,"TextBox", obj_textbox);
 textbox.text = start_text;
 textbox.dialogueEvent = true;
