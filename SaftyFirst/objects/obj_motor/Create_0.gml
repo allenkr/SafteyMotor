@@ -9,3 +9,5 @@ motorcycleSpeed = -1.0;
 lay_id = layer_get_id("Background");
 upperBound = 250;
 lowerBound = 600;
+globalvar distTravelled;
+distTravelled = 0;

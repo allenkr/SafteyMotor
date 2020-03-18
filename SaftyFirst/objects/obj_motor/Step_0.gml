@@ -34,12 +34,19 @@ if(keyboard_check(ord("F"))){ //shift down
 	}
 }
 
+print(distTravelled);
+
 //APPLY MOVEMENT
 //if (!(y + motorcycleSpeed > lowerBound || y + motorcycleSpeed < upperBound))
 	//y += motorcycleSpeed;
-	
+distTravelled += motorcycleSpeed;
 
 if (motorcycleSpeed < 0)
 	layer_vspeed(lay_id, -motorcycleSpeed);
+	
+if (distTravelled <= -15000)
+{
+	game_restart();
+}
 //else
 	//layer_vspeed(lay_id, gear);
