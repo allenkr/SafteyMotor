@@ -38,7 +38,7 @@ else if(yBack>=1300 && yBack<1400)//4 to 5
 {
 	draw_sprite_tiled(spr_t_level,5,1024,yBack+450);
 	yBack+=2;	
-}
+}//check here first
 else if(yBack>=1400)// && yBack<570)//5
 {
 	draw_sprite_tiled(spr_t_level,6,1024,yBack+450);
