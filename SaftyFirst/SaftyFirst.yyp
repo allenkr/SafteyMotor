@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "049661a9-9097-4567-a5c0-21740d3dbf48",
+            "Value": {
+                "id": "eca3b411-0d7c-453f-9e35-9d5114917f6f",
+                "resourcePath": "views\\049661a9-9097-4567-a5c0-21740d3dbf48.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "04d6f586-0dbe-4798-950e-a50f7763af93",
             "Value": {
                 "id": "6d6428a0-f059-49bb-b219-ca8b6a9c8d50",
@@ -127,6 +135,14 @@
             }
         },
         {
+            "Key": "1bb3876b-d729-499a-9131-46b6b5f05749",
+            "Value": {
+                "id": "36e6fc70-39a3-4ee8-86ac-cb3e3e59efa4",
+                "resourcePath": "sprites\\spr_truck_purple_right\\spr_truck_purple_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1e948d6b-bc66-41d1-86b5-38c5073f52cb",
             "Value": {
                 "id": "7a73b0e1-6d30-4adb-a3ab-7c7fd46415de",
@@ -164,6 +180,14 @@
                 "id": "2da0f30f-9f46-4e9c-9e2c-18adf5d4be23",
                 "resourcePath": "objects\\obj_trailer\\obj_trailer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2ee5b954-a6f5-47a9-a859-b1a7549e5caf",
+            "Value": {
+                "id": "5b709ee4-cf41-40b3-96cc-96b9518a1a3f",
+                "resourcePath": "sprites\\spr_truck_blue_brake\\spr_truck_blue_brake.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -212,6 +236,22 @@
                 "id": "b0a01ca5-63f3-43a6-a1f0-028a1f166ff9",
                 "resourcePath": "objects\\obj_textbox_start\\obj_textbox_start.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3a9f737e-3e75-46d5-b803-7d98ecc1c562",
+            "Value": {
+                "id": "cd9e9881-2525-4cc8-b68d-0fbbe425ffd1",
+                "resourcePath": "views\\3a9f737e-3e75-46d5-b803-7d98ecc1c562.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3bd74548-c7c1-4e30-9589-dd67c2f5305c",
+            "Value": {
+                "id": "fff8d2f4-20fe-466f-ad69-85adfe9b14e2",
+                "resourcePath": "sprites\\spr_truck_purple_left\\spr_truck_purple_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -327,11 +367,27 @@
             }
         },
         {
+            "Key": "59c7d0e3-83b4-40b4-a6a6-bd56b4ddcd41",
+            "Value": {
+                "id": "4da5862b-58bc-445f-b82f-66aa8d118f31",
+                "resourcePath": "sprites\\spr_truck_purple_brake\\spr_truck_purple_brake.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5a5b0dac-26e9-4a96-9e4c-94183d2272e1",
             "Value": {
                 "id": "20e36771-2ba9-457b-86fa-fdd58161ccd4",
                 "resourcePath": "rooms\\menu\\menu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "5e9607ed-05cd-4ada-ba3a-674f6e4ff485",
+            "Value": {
+                "id": "52714806-a407-4931-9f58-5fe6bb92734b",
+                "resourcePath": "sprites\\spr_truck_green_right\\spr_truck_green_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -364,6 +420,14 @@
                 "id": "2eeaa89f-0fda-40f8-9702-2eaec2b00af3",
                 "resourcePath": "objects\\obj_menu\\obj_menu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "63e3440e-b983-405c-9c60-5a0b8a53931e",
+            "Value": {
+                "id": "6d47ef74-044f-4cd6-90f4-89ff68d5b056",
+                "resourcePath": "sprites\\spr_truck_red_brake\\spr_truck_red_brake.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -407,6 +471,14 @@
             }
         },
         {
+            "Key": "6e5219a3-74fc-4fd2-a1c7-1c60273b4cb9",
+            "Value": {
+                "id": "90b12117-f52b-4953-bd76-30abf6d939b0",
+                "resourcePath": "views\\6e5219a3-74fc-4fd2-a1c7-1c60273b4cb9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "6e95454c-cbbe-4b73-a8ad-179891673bd9",
             "Value": {
                 "id": "43797f00-8f96-4640-bed8-ed706c1c51e3",
@@ -427,6 +499,14 @@
             "Value": {
                 "id": "9114dc00-cfa6-4a8e-b208-8d7f81cd69ba",
                 "resourcePath": "sprites\\spr_fancy_blue\\spr_fancy_blue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7d0295c6-9171-437e-9157-040f14dcf89d",
+            "Value": {
+                "id": "bc6ad688-fe05-4186-819d-93b009a875f1",
+                "resourcePath": "sprites\\spr_truck_gray_right\\spr_truck_gray_right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -471,6 +551,14 @@
             }
         },
         {
+            "Key": "893da90a-7093-4268-90b9-e85b2399f953",
+            "Value": {
+                "id": "9804ca9a-af10-49e8-ad4c-deb8211478ed",
+                "resourcePath": "sprites\\spr_truck_red_left\\spr_truck_red_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "89fb534f-9c41-4c70-ab41-4349758b0c56",
             "Value": {
                 "id": "c15387da-1b33-4eed-a608-a29236533dd0",
@@ -483,6 +571,22 @@
             "Value": {
                 "id": "938cd4c5-7b08-43d4-bb11-12282a8ce2e9",
                 "resourcePath": "sprites\\spr_mc_left_n_back\\spr_mc_left_n_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8c3d8ae3-cfb6-4515-9f3b-6a689542721a",
+            "Value": {
+                "id": "4edf1c96-5cad-41f8-8891-a73c0bc2277c",
+                "resourcePath": "views\\8c3d8ae3-cfb6-4515-9f3b-6a689542721a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8cf0e1eb-c15a-4b6d-a9f5-7868c7d671d7",
+            "Value": {
+                "id": "7daa2fad-dc69-4667-9a74-c17a45364faa",
+                "resourcePath": "sprites\\spr_truck_blue_right\\spr_truck_blue_right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -519,6 +623,14 @@
             }
         },
         {
+            "Key": "9bb87fe7-bce6-4591-b1df-b9c75f962ca3",
+            "Value": {
+                "id": "512efe59-c9d1-4760-9a20-1512b427d499",
+                "resourcePath": "sprites\\spr_truck_green_left\\spr_truck_green_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9e3c2193-431f-4a1d-8381-b7cbb4f56a43",
             "Value": {
                 "id": "bd037de6-8bd2-42d7-99a6-28af93b67b85",
@@ -532,6 +644,14 @@
                 "id": "095d5088-b9f4-465a-855b-9253f9a61479",
                 "resourcePath": "rooms\\room_credits\\room_credits.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "a10e513a-928e-4b10-9c2c-7e8a2a21ddf9",
+            "Value": {
+                "id": "a1be8d5c-9b66-4bd1-a812-81b61660bb87",
+                "resourcePath": "views\\a10e513a-928e-4b10-9c2c-7e8a2a21ddf9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -607,6 +727,14 @@
             }
         },
         {
+            "Key": "b8354a56-0c1f-4a6f-bbb7-cf1f4ea335bd",
+            "Value": {
+                "id": "7c61e5b0-4f41-4300-b391-24b36bdb23a4",
+                "resourcePath": "sprites\\spr_truck_gray_left\\spr_truck_gray_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b8ba6f0e-ac79-4a2e-92a2-2410a9b82ffa",
             "Value": {
                 "id": "cf0ea54e-72d2-43da-a6af-432c6f56c669",
@@ -647,6 +775,14 @@
             }
         },
         {
+            "Key": "bd089221-8f76-4827-8027-f2a6b9d9a941",
+            "Value": {
+                "id": "6427b400-7b88-4f71-9555-3432a581edfe",
+                "resourcePath": "sprites\\spr_truck_blue_left\\spr_truck_blue_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bd3dc7cd-dedc-4dcd-a74c-6f61d8e9622b",
             "Value": {
                 "id": "b1380495-fe2d-4c10-a1b2-ae67075409e2",
@@ -676,6 +812,14 @@
                 "id": "cf348132-b7e4-4c4d-8f8a-e94eb6c5bb93",
                 "resourcePath": "views\\c4053e52-15a2-4a7a-9ad4-44975898b41c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c4b24b23-0d5c-47c7-bb65-1efbef1aea4d",
+            "Value": {
+                "id": "9cb4e8c7-d448-48f7-aa5e-c0cdb123571d",
+                "resourcePath": "sprites\\spr_truck_red_right\\spr_truck_red_right.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -715,6 +859,14 @@
             "Value": {
                 "id": "fad5f6f7-375b-4509-ad7b-b92cb4aaf784",
                 "resourcePath": "sprites\\spr_basic_purple\\spr_basic_purple.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ceae843b-c9bc-4ffb-81e8-d9984fd92834",
+            "Value": {
+                "id": "99e5453f-9b78-49de-8975-81fc2154c994",
+                "resourcePath": "sprites\\spr_truck_gray_brake\\spr_truck_gray_brake.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -844,6 +996,14 @@
                 "id": "762b9c9e-5592-4ec5-936b-82d9b0c723ac",
                 "resourcePath": "rooms\\room_controls\\room_controls.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "fb80caa7-83e2-4de0-8ede-d173dee820bb",
+            "Value": {
+                "id": "9112fd50-d31b-45a9-8bb8-58a5b4da5c97",
+                "resourcePath": "sprites\\spr_truck_green_brake\\spr_truck_green_brake.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
