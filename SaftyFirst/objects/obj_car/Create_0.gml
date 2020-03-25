@@ -59,7 +59,7 @@ if(pos == 3 && lane3 == false){
 	direction = -90;
 	speed = irandom_range(-2, -1.5);
 }
-/*
+
 if(pos == 4 && lane4 == false){
 	lane4 = true;
 	x = lane4x;
@@ -67,5 +67,5 @@ if(pos == 4 && lane4 == false){
 	direction = -90;
 	speed = irandom_range(1,2);
 }
-*/
+
 
