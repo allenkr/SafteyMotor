@@ -4,11 +4,11 @@
     "mvc": "1.1",
     "name": "c4053e52-15a2-4a7a-9ad4-44975898b41c",
     "children": [
-        "76628fcf-250c-46b2-9a10-119e2804092d",
+        "a57419e2-0e9d-4a70-8f1b-343670385807",
         "13175659-56a2-44be-9bbe-f9965a636721",
-        "fd35873e-1581-4ad6-8c58-7cc664a9cc7d",
-        "36d24ba0-5c30-4b3c-aeb1-80654744214d",
-        "91e565bc-de10-4e5f-a82f-0755a627c7e0"
+        "1a8ec495-fe8b-48fd-a5bf-ad7b578f0144",
+        "335624a4-c208-4c3b-9d1d-32fbb0167769",
+        "cd6d587d-70c2-4ce7-9a5a-8dc0da2e2426"
     ],
     "filterType": "GMSprite",
     "folderName": "spr_fancy_car",
