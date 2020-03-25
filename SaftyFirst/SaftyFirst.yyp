@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "38616cfa-c6b5-4acc-828e-08a22f015c66",
+            "Value": {
+                "id": "b0a01ca5-63f3-43a6-a1f0-028a1f166ff9",
+                "resourcePath": "objects\\obj_textbox_start\\obj_textbox_start.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3c7b619b-ca14-4071-a371-b6a71c76cb94",
             "Value": {
                 "id": "5ff4b653-39b0-4eb2-ac76-18e9aed4a9e2",
@@ -282,7 +290,7 @@
             "Key": "6b108e14-4582-4fae-95e8-e7c37287b40e",
             "Value": {
                 "id": "cf75c09c-5338-4871-9b0b-7b0006334699",
-                "resourcePath": "objects\\obj_textbox\\obj_textbox.yy",
+                "resourcePath": "objects\\obj_textbox_dead\\obj_textbox_dead.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -364,6 +372,14 @@
                 "id": "938cd4c5-7b08-43d4-bb11-12282a8ce2e9",
                 "resourcePath": "sprites\\spr_mc_left_n_back\\spr_mc_left_n_back.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8de56021-676a-46fe-8682-e2a8e260a24f",
+            "Value": {
+                "id": "39f74bab-0b20-4432-af49-58966e2336ed",
+                "resourcePath": "rooms\\room_highway\\room_highway.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
