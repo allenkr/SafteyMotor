@@ -40,40 +40,40 @@ pos = irandom_range(0,4);
 
 if(pos == 0 && lane0 == false){
 	lane0 = true;
-	x = -32;
-	y = 800;
+	x = lane0x;
+	y = lane0y;
 	direction = -90;
 	speed = irandom_range(-3,-2);
 }
 
 if(pos == 1 && lane1 == false){
 	lane1 = true;
-	x = 128;
-	y = 800;	
+	x = lane1x;
+	y = lane1y;	
 	direction = -90;
 	speed = irandom_range(-2.5,-2);
 }
 
 if(pos == 2 & lane2 == false){
 	lane2 = true;
-	x = 320;
-	y = 800;		
+	x = lane2x;
+	y = lane2y;		
 	direction = -90;
 	speed = irandom_range(-2.5,-2);
 }
 
 if(pos == 3 && lane3 == false){
 	lane3 = true;
-	x = 480;
-	y = 832;	
+	x = lane3x;
+	y = lane3y;	
 	direction = -90;
 	speed = irandom_range(-2, -1.5);
 }
 
 if(pos == 4 && lane4 == false){
 	lane4 = true;
-	x = 640;
-	y = -544;	
+	x = lane4x;
+	y = lane4y;
 	direction = -90;
 	speed = irandom_range(1,2);
 }
