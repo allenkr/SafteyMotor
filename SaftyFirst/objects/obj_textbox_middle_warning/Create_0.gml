@@ -7,8 +7,7 @@ page = 0;
 charCount = 0;
 boxWidth = sprite_get_width(spr_textbox);
 stringheight = string_height(text[0]);
-midlane = instance_find(obj_mid_Lane,0);
-warn = false;
+
 
 
 

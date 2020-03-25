@@ -12,3 +12,4 @@ textbox = instance_create_layer(x,y,"TextBox", obj_textbox_start);
 
 instance_deactivate_all(true);
 instance_activate_object(textbox);
+

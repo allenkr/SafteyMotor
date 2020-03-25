@@ -12,7 +12,8 @@
         "277f77f1-7d6b-4a12-9b1c-fbe92b5dd34d",
         "11daf895-8957-4bb6-8832-3e8c0524111d",
         "afc9f274-f904-434c-91e9-15abb594ebe2",
-        "c1f478f1-2bd7-4302-802e-0899f62cc235"
+        "c1f478f1-2bd7-4302-802e-0899f62cc235",
+        "ff39cf2d-ab46-449b-95d5-1b57b9ea3ade"
     ],
     "IsDnD": false,
     "layers": [
@@ -61,7 +62,8 @@
 {"name": "inst_1C2EA57B","id": "277f77f1-7d6b-4a12-9b1c-fbe92b5dd34d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1C2EA57B","objId": "e4bc1473-c4dd-4542-86c1-3b9509eaa3a0","properties": null,"rotation": 0,"scaleX": 0.25,"scaleY": 3,"mvc": "1.1","x": 192,"y": 384},
 {"name": "inst_181D547C","id": "11daf895-8957-4bb6-8832-3e8c0524111d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_181D547C","objId": "7ec9c56d-ef53-4eaa-83e8-32c769688ccf","properties": null,"rotation": 0,"scaleX": 4,"scaleY": 4,"mvc": "1.1","x": 672,"y": 864},
 {"name": "inst_18655BAE","id": "afc9f274-f904-434c-91e9-15abb594ebe2","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_18655BAE","objId": "7ec9c56d-ef53-4eaa-83e8-32c769688ccf","properties": null,"rotation": 0,"scaleX": 4,"scaleY": 4,"mvc": "1.1","x": -32,"y": -512},
-{"name": "inst_2C101924","id": "c1f478f1-2bd7-4302-802e-0899f62cc235","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2C101924","objId": "c74bf245-33f6-40c5-85d9-5830e746c683","properties": null,"rotation": 0.06639278,"scaleX": -0.375,"scaleY": 3.375,"mvc": "1.1","x": 512,"y": 384}
+{"name": "inst_2C101924","id": "c1f478f1-2bd7-4302-802e-0899f62cc235","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2C101924","objId": "c74bf245-33f6-40c5-85d9-5830e746c683","properties": null,"rotation": 0.06639278,"scaleX": -0.375,"scaleY": 3.375,"mvc": "1.1","x": 512,"y": 384},
+{"name": "inst_2635E6A0","id": "ff39cf2d-ab46-449b-95d5-1b57b9ea3ade","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2635E6A0","objId": "0542f995-14d5-46b2-89bc-419f392800ce","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 0,"y": 736}
             ],
             "layers": [
 
@@ -98,7 +100,7 @@
             "m_serialiseFrozen": false,
             "modelName": "GMRBackgroundLayer",
             "mvc": "1.0",
-            "spriteId": "fc2c7e8f-eec3-4963-a2b6-6a9766bff447",
+            "spriteId": "4c784fa7-e0f8-4a6c-a1cf-52b498ecd286",
             "stretch": true,
             "userdefined_animFPS": true,
             "userdefined_depth": false,

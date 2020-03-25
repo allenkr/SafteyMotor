@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0542f995-14d5-46b2-89bc-419f392800ce",
+            "Value": {
+                "id": "1bd5d4c8-0bb8-432f-994d-08d03608c233",
+                "resourcePath": "objects\\obj_score_board\\obj_score_board.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e41ab40-6ade-4c2d-9f21-36985fca9d75",
             "Value": {
                 "id": "e878f1b7-1169-4980-92cd-9dedf75d6ba9",
@@ -447,6 +455,14 @@
             }
         },
         {
+            "Key": "ac84da87-4a26-412e-bbc3-f7f20ff523c1",
+            "Value": {
+                "id": "ed0d1b84-2f2d-4756-be51-a0524cd8826c",
+                "resourcePath": "fonts\\fnt_score\\fnt_score.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "ad7d9a40-b784-4248-9698-98e3003cfb99",
             "Value": {
                 "id": "9c7da45c-d8ca-47a3-973a-a6f8202caa2f",
@@ -564,6 +580,14 @@
                 "id": "72b14f7e-7857-4b32-bf6b-9e99bde14386",
                 "resourcePath": "views\\d876ba42-9978-4de5-8965-a49fea56d2f4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d9078854-017c-4fd3-a4bf-cfe1c4bed9f3",
+            "Value": {
+                "id": "58768638-0d33-4a15-9aa8-8cbf0585bbb7",
+                "resourcePath": "sprites\\spr_five_lane_road\\spr_five_lane_road.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

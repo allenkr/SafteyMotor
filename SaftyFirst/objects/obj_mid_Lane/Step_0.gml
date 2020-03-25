@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if(place_meeting(x,y,obj_motor)){
 	if (timer > 0)
 	{
@@ -9,6 +10,7 @@ if(place_meeting(x,y,obj_motor)){
 		if(textbox == noone){
 			textbox = instance_create_layer(x,y,"TextBox", obj_textbox_middle_warning);
 		}
+		score -= 30;
 	}
 }
 else{
