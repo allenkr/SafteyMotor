@@ -9,6 +9,7 @@ text[4] = "Use WASD to ride! Click on ... to do flash lights..."
 text[5] = "...Lets start!"
 
 page = 0;
+charCount = 0;
 boxWidth = sprite_get_width(spr_textbox);
 stringheight = string_height(text[0]);
 
