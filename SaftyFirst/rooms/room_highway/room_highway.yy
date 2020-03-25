@@ -118,7 +118,7 @@
             "vspeed": 2,
             "vtiled": true,
             "x": 0,
-            "y": 0
+            "y": 900
         }
     ],
     "modelName": "GMRoom",
