@@ -22,7 +22,6 @@ if(keyboard_check(ord("S"))){ //down
 	
 }
 
-print(gear);
 
 if (shiftTimer > 0)
 	shiftTimer--;

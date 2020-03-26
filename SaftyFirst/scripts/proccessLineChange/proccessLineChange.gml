@@ -1,4 +1,4 @@
-if(sprite_index == spr_fancy_green_right){
+if(sprite_index == spr_truck_blue_right){
 	if(currLaneChange < laneChangeDist)
 	{
 		x += 5;
@@ -30,13 +30,13 @@ if(sprite_index == spr_fancy_green_right){
 		
 		pos++;
 		currLaneChange = 0;
-		sprite_index = spr_fancy_green;
+		sprite_index = spr_truck_blue;
 		timer = room_speed *  irandom_range(0,5); 
 	}
 
 }
 
-if(sprite_index = spr_fancy_green_left){
+if(sprite_index = spr_truck_blue_left){
 	if(currLaneChange < laneChangeDist)
 	{
 		x -= 5;
@@ -69,7 +69,7 @@ if(sprite_index = spr_fancy_green_left){
 		ran = false;
 		pos--;
 		currLaneChange = 0;
-		sprite_index = spr_fancy_green;
+		sprite_index = spr_truck_blue;
 		timer = room_speed *  irandom_range(0,5); 
 	}
 }
