@@ -1,3 +1,9 @@
+left = spr_truck_blue_left;
+right = spr_truck_blue_right;
+normal = spr_truck_blue;
+
+
+
 if (timer > 0)
 {
    timer --;
@@ -7,17 +13,17 @@ else if(!ran){
 	loc = irandom_range(0,1);
 	
 	if(loc == 0 && ( (pos ==0 && !lane1) || (pos == 1 && !lane2) || (pos ==2 && !lane3) || (pos ==3 && !lane4))){
-		sprite_index = spr_truck_blue_left;
+		sprite_index = left;
 		ran = true;
 	}
 	else if(loc == 1  && ( (pos == 4 && !lane3) || (pos == 3 && !lane2) || (pos ==2 && !lane1 || (pos ==1 && !lane0)) )){
-		sprite_index = spr_truck_blue_right;
+		sprite_index = right;
 		ran = true;
 	}
 	else
 	{
 		ran = false;
-		sprite_index = spr_truck_blue;
+		sprite_index = normal;
 	}
 }
 
