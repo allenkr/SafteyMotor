@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "644ffd6e-7c28-4146-9ee2-3a558903a78a",
+            "Value": {
+                "id": "c9ffd099-d663-4a4b-872a-5a46dde08f93",
+                "resourcePath": "sounds\\snd_background_sound\\snd_background_sound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6643b457-2c4d-4a17-bb60-f5a6f0b63fe2",
             "Value": {
                 "id": "3896c268-bdeb-4ad0-b946-7bd823162821",

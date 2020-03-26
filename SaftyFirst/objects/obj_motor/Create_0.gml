@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+audio_play_sound(snd_background_sound,10,true);
 
 gear = 1;
 shiftTimer = 60;
