@@ -2,7 +2,7 @@
 // You can write your code in this editor
 switch(menu_index)
 {
-	case 3:
+	case 4:
 		room_goto(menu);
 		break;
 		
