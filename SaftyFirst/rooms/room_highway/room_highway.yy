@@ -116,7 +116,7 @@
             "userdefined_depth": false,
             "visible": true,
             "vspeed": 2,
-            "vtiled": false,
+            "vtiled": true,
             "x": 0,
             "y": -2900
         }
