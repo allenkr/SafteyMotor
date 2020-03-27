@@ -1,4 +1,4 @@
-if(sprite_index == spr_truck_blue_right){
+if(sprite_index == right){
 	if(currLaneChange < laneChangeDist)
 	{
 		x += 5;
@@ -30,13 +30,13 @@ if(sprite_index == spr_truck_blue_right){
 		
 		pos++;
 		currLaneChange = 0;
-		sprite_index = spr_truck_blue;
+		sprite_index = normal;
 		timer = room_speed *  irandom_range(0,5); 
 	}
 
 }
 
-if(sprite_index = spr_truck_blue_left){
+if(sprite_index = left){
 	if(currLaneChange < laneChangeDist)
 	{
 		x -= 5;
@@ -69,7 +69,7 @@ if(sprite_index = spr_truck_blue_left){
 		ran = false;
 		pos--;
 		currLaneChange = 0;
-		sprite_index = spr_truck_blue;
+		sprite_index = normal;
 		timer = room_speed *  irandom_range(0,5); 
 	}
 }
