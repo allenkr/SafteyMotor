@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "1b356016-bc7e-4bc6-8f63-182a73758607",
+            "Value": {
+                "id": "5cf997e3-88e0-49cc-af67-3a8596a5651e",
+                "resourcePath": "sprites\\spr_mc_left_signal_back\\spr_mc_left_signal_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1bb3876b-d729-499a-9131-46b6b5f05749",
             "Value": {
                 "id": "36e6fc70-39a3-4ee8-86ac-cb3e3e59efa4",
@@ -399,6 +407,14 @@
             }
         },
         {
+            "Key": "5d0ee91b-1e73-4ed7-a488-6b0e627b569d",
+            "Value": {
+                "id": "b5ee24d3-ef6a-4cae-8a37-a2da4f0ce5d3",
+                "resourcePath": "sprites\\spr_mc_left_signal\\spr_mc_left_signal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e9607ed-05cd-4ada-ba3a-674f6e4ff485",
             "Value": {
                 "id": "52714806-a407-4931-9f58-5fe6bb92734b",
@@ -643,6 +659,14 @@
             "Value": {
                 "id": "6f376afe-b4a3-4125-8805-e67521f8b723",
                 "resourcePath": "sprites\\spr_mc_base\\spr_mc_base.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "99855aaf-5945-49a0-a023-cdca3b429d44",
+            "Value": {
+                "id": "08148ef7-e272-42af-a1ad-a5e6734242d1",
+                "resourcePath": "sprites\\spr_mc_right_signal\\spr_mc_right_signal.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -955,6 +979,14 @@
             "Value": {
                 "id": "7abf59e4-6ab5-4907-b03d-1c13e1368622",
                 "resourcePath": "sprites\\spr_car_left\\spr_car_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e2639b3f-48c4-44a0-8814-0795ebeead2b",
+            "Value": {
+                "id": "83158ff6-dd30-4c19-bf49-b0425ae3b280",
+                "resourcePath": "sprites\\spr_mc_right_signal_back\\spr_mc_right_signal_back.yy",
                 "resourceType": "GMSprite"
             }
         },
