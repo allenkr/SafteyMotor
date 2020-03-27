@@ -90,7 +90,7 @@
             "Key": "1184f00b-2ccb-42fc-b8fc-0217e89af7de",
             "Value": {
                 "id": "9868e6d5-0eb7-4fee-af3f-272c27d1df12",
-                "resourcePath": "sprites\\sprite\\sprite.yy",
+                "resourcePath": "sprites\\spr_ramps\\spr_ramps.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -252,6 +252,14 @@
                 "id": "cd9e9881-2525-4cc8-b68d-0fbbe425ffd1",
                 "resourcePath": "views\\3a9f737e-3e75-46d5-b803-7d98ecc1c562.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3b202aa3-1b9d-42ea-b57d-4db3d536069e",
+            "Value": {
+                "id": "cb9a8c78-45a7-408d-a14b-dbdc932e4d3d",
+                "resourcePath": "sprites\\spr_5Lane_tile\\spr_5Lane_tile.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
