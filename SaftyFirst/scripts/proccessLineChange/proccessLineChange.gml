@@ -1,4 +1,4 @@
-if(sprite_index == spr_fancy_green_right){
+if(sprite_index == right){
 	if(currLaneChange < laneChangeDist)
 	{
 		x += 5;
@@ -7,36 +7,37 @@ if(sprite_index == spr_fancy_green_right){
 
 	if(currLaneChange == laneChangeDist)
 	{
-		if (pos = 0)
+		if (pos == 0)
 		{
 			lane0 = false
 			lane1 = true;
 		}
-		if (pos = 1)
+		if (pos == 1)
 		{
 			lane1 = false
 			lane2 = true;
 		}
-		if (pos = 2)
+		if (pos == 2)
 		{
 			lane2 = false
 			lane3 = true;
 		}
-		if (pos = 3)
+		if (pos == 3)
 		{
 			lane3 = false
 			lane4 = true;
 		}
 		
+		ran = false;
 		pos++;
 		currLaneChange = 0;
-		sprite_index = spr_fancy_green;
+		sprite_index = normal;
 		timer = room_speed *  irandom_range(0,5); 
 	}
 
 }
 
-if(sprite_index = spr_fancy_green_left){
+if(sprite_index == left){
 	if(currLaneChange < laneChangeDist)
 	{
 		x -= 5;
@@ -45,22 +46,22 @@ if(sprite_index = spr_fancy_green_left){
 
 	if(currLaneChange == laneChangeDist)
 	{
-		if (pos = 4)
+		if (pos == 4)
 		{
 			lane4 = false
 			lane3 = true;
 		}
-		if (pos = 3)
+		if (pos == 3)
 		{
 			lane3 = false
 			lane2 = true;
 		}
-		if (pos = 2)
+		if (pos == 2)
 		{
 			lane2 = false
 			lane1 = true;
 		}
-		if (pos = 1)
+		if (pos == 1)
 		{
 			lane1 = false
 			lane0 = true;
@@ -69,7 +70,7 @@ if(sprite_index = spr_fancy_green_left){
 		ran = false;
 		pos--;
 		currLaneChange = 0;
-		sprite_index = spr_fancy_green;
+		sprite_index = normal;
 		timer = room_speed *  irandom_range(0,5); 
 	}
 }

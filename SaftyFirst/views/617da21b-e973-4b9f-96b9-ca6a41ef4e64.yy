@@ -8,7 +8,13 @@
         "8b02b60f-1d4c-495a-957a-4b484d2a40fc",
         "2f774baf-8a23-456d-8d11-5c6d41d709f3",
         "da62209c-a693-4ee2-bb03-e610c4eff896",
-        "1724bbca-5aaf-4fb0-8666-042a3e860204"
+        "1724bbca-5aaf-4fb0-8666-042a3e860204",
+        "5d0ee91b-1e73-4ed7-a488-6b0e627b569d",
+        "99855aaf-5945-49a0-a023-cdca3b429d44",
+        "e2639b3f-48c4-44a0-8814-0795ebeead2b",
+        "1b356016-bc7e-4bc6-8f63-182a73758607",
+        "334053fd-e160-437a-ae90-58f4f83b1280",
+        "0726663f-9356-4d07-af3f-19435aa7d9ee"
     ],
     "filterType": "GMSprite",
     "folderName": "spr_motortcycle_group",

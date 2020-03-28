@@ -8,7 +8,8 @@ button_h = 32;
 button[0] = "Coding made by: Ken Wang";
 button[1] = "Coding and rider of motorcycle: Matthew Troutman";
 button[2] = "Art and UI done: Kevin Allen";
-button[3] = "Back";
+button[3] = "Sound from freesound.org";
+button[4] = "Back";
 buttons = array_length_1d(button);
 
 menu_index = 0;
