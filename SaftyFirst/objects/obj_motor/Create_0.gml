@@ -23,6 +23,9 @@ lane2 = false;
 lane3 = false;
 lane4 = false;
 
+globalvar isTurning;
+isTurning = false;
+
 for	(i = 0; i < 3; i++)
 	instance_create_layer(0,0,lay_id2,obj_car);
 
