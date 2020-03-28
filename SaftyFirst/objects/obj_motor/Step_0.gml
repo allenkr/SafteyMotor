@@ -81,3 +81,19 @@ if (motorcycleSpeed < 0)
 //else
 	//layer_vspeed(lay_id, gear);
 	
+
+//Turning Signal Warning
+if(place_meeting(x,y,obj_mid_Lane)){
+	if(!isTurning){
+		if(turningTextBox == noone){
+			turningTextBox = instance_create_layer(x,y,"TextBox", obj_textbox_middle_warning_turning);
+		}
+	}
+}
+else{	
+	if(turningTextBox != noone){
+		instance_destroy(turningTextBox);
+		turningTextBox = noone;
+	}
+}
+

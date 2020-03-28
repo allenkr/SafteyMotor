@@ -24,6 +24,7 @@ lane3 = false;
 lane4 = false;
 
 globalvar isTurning;
+turningTextBox = noone;
 isTurning = false;
 
 for	(i = 0; i < 3; i++)

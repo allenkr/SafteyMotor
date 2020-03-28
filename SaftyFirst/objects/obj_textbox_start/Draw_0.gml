@@ -12,4 +12,4 @@ if(charCount < string_length(text[page])){
 	charCount += 1;	
 }
 text_part = string_copy(text[page], 1, charCount);
-draw_text_ext(310+10,350+10+stringheight,text_part,stringheight, boxWidth-20);
+draw_text_ext(310+20,350+20+stringheight,text_part,stringheight, boxWidth-20);
