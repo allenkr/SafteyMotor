@@ -38,6 +38,22 @@ if(room == room_level_1)
 {
 	textbox = instance_create_layer(x,y,"TextBox", obj_textbox_level_1);
 }
+if(room == room_level_2)
+{
+	textbox = instance_create_layer(x,y,"TextBox", obj_textbox_level_2);
+}
+if(room == room_level_3)
+{
+	textbox = instance_create_layer(x,y,"TextBox", obj_textbox_level_3);
+}
+if(room == room_level_4)
+{
+	textbox = instance_create_layer(x,y,"TextBox", obj_textbox_level_4);
+}
+if(room == room_level_5)
+{
+	textbox = instance_create_layer(x,y,"TextBox", obj_textbox_level_5);
+}
 
 instance_deactivate_all(true);
 instance_activate_object(textbox);
