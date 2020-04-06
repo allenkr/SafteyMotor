@@ -66,11 +66,12 @@ if(pos == 4 && lane4 == false){
 	spawned = true;
 }
 }
+/*
 print("pos: ", pos, "\n");
 print("lane0: ", lane0, "\n");
 print("lane1: ", lane1, "\n");
 print("lane2: ", lane2, "\n");
 print("lane3: ", lane3, "\n");
 print("lane4: ", lane4, "\n");
-
+*/
 

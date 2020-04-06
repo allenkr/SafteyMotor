@@ -8,6 +8,11 @@ switch(menu_index)
 	case 2:
 		room_goto(room_controls);
 		break;
+		
+	case 3:
+		room_goto(room_level_1);
+		break;
+		
 	
 	case 8:
 		room_goto(settings);
