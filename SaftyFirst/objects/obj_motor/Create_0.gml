@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //audio_play_sound(snd_background_sound,10,true);
-
+randomise();
 gear = 1;
 shiftTimer = 60;
 motorcycleSpeed = -1.0;
@@ -27,16 +27,31 @@ globalvar isTurning;
 turningTextBox = noone;
 isTurning = false;
 
-for	(i = 0; i < 3; i++)
-	instance_create_layer(0,0,lay_id2,obj_car);
 
 if(room == room_highway)
 {
 	textbox = instance_create_layer(x,y,"TextBox", obj_textbox_start);
+	for	(i = 0; i < 3; i++)
+		instance_create_layer(0,0,lay_id2,obj_car);
 }
 if(room == room_level_1)
 {
 	textbox = instance_create_layer(x,y,"TextBox", obj_textbox_level_1);
+	cid = [];
+	rando = [0,1];
+	lanex = [470,630,150,310];
+	
+	for	(i = 0; i < 3; i++){
+		r = irandom_range(0,1);
+		cid[i] = instance_create_layer(0,0,lay_id2,obj_fancy);
+		cid[i].x = lanex[i];
+		cid[i].ran =0;
+	}
+		
+	cid[0].fancys = [cid[1],cid[2]];
+	cid[1].fancys = [cid[0],cid[2]];
+	cid[2].fancys = [cid[0],cid[1]];
+	
 }
 if(room == room_level_2)
 {
