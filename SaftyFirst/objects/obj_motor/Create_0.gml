@@ -56,6 +56,8 @@ if(room == room_level_1)
 if(room == room_level_2)
 {
 	textbox = instance_create_layer(x,y,"TextBox", obj_textbox_level_2);
+	for	(i = 0; i < 3; i++)
+		instance_create_layer(0,0,lay_id2,obj_fancy2);
 }
 if(room == room_level_3)
 {
