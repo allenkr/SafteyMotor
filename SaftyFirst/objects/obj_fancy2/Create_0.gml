@@ -1,10 +1,10 @@
 
 
-lane0x = 70;
-lane1x = 220;
-lane2x = 400;
-lane3x = 550;
-lane4x = 710;
+lane0x = 0;
+lane1x = 160;
+lane2x = 320;
+lane3x = 480;
+lane4x = 640;
 
 lane0y = 800;
 lane1y = 800;

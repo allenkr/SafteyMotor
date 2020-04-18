@@ -3,7 +3,6 @@ left = spr_fancy_green_right;
 normal = spr_fancy_green;
 
 
-
 /*print("lane0: ", lane0, "\n");
 print("lane1: ", lane1, "\n");
 print("lane2: ", lane2, "\n");
