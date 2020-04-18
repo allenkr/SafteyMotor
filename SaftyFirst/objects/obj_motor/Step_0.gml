@@ -25,34 +25,6 @@ if(keyboard_check(ord("S"))){ //down
 	
 }
 
-if (keyboard_check(ord("E")))
-{
-	if (!isTurning)	
-	{
-		sprite_index = spr_mc_right_signal;
-		isTurning = true;
-	}
-	else
-	{
-		sprite_index = spr_mc_base;
-		isTurning = false;
-	}
-}
-
-if (keyboard_check(ord("Q")))
-{
-	if (!isTurning)	
-	{
-		sprite_index = spr_mc_left_signal;
-		isTurning = true;
-	}
-	else
-	{
-		sprite_index = spr_mc_base;
-		isTurning = false;
-	}
-}
-
 
 if (shiftTimer > 0)
 	shiftTimer--;
