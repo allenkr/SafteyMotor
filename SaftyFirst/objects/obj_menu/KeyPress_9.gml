@@ -18,10 +18,10 @@ switch(menu_index)
 		room_goto(room_level_3);
 		break;
 	case 6:
-		room_goto(room_level_4);
+		room_goto(room_level_3);
 		break;
 	case 7:
-		room_goto(room_level_5);
+		room_goto(room_level_3);
 		break;
 	case 8:
 		room_goto(settings);

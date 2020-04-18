@@ -2,9 +2,8 @@
 // You can write your code in this editor
 
 
-text[0] = "Welcome to Level 1!"
+text[0] = "Don't forget to stay off the lanes!"
 /*
-text[1] = "This is the tutorial level and we are going to show you how to play the game!"
 text[2] = "First, your objective is to ride home safely"
 text[3] = "During your trip, you will encounter other drivers-- many are not paying attention, and you need to " + 
 	" react quickly in order to be safe."

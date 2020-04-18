@@ -1,6 +1,9 @@
 
 //HANDLE INPUT:
-
+if(gear>1)
+{
+	score += gear;
+}
 //movement
 if(keyboard_check(ord("A"))){ //left
 	x += -4;
@@ -57,7 +60,7 @@ if (shiftTimer > 0)
 //gear shifts
 if(keyboard_check(ord("R"))){ //shift up
 	if (gear < 5 && shiftTimer == 0)
-	{
+	{		
 		gear++;
 		shiftTimer = 60;
 	}
