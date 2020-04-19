@@ -3,8 +3,8 @@ right = spr_truck_blue_right;
 normal = spr_truck_blue;
 
 
-/*
-print("lane0: ", lane0, "\n");
+
+/*print("lane0: ", lane0, "\n");
 print("lane1: ", lane1, "\n");
 print("lane2: ", lane2, "\n");
 print("lane3: ", lane3, "\n");

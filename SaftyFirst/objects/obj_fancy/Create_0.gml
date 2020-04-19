@@ -1,77 +1,21 @@
+/// @description Insert description here
+// You can write your code in this editor
+randomise();
+fancys = [];
+fancy_content =noone;
+lanex = [150,310,470,630];
+laney = [800,1200, 1600, 2000];
 
-
-lane0x = 0;
-lane1x = 160;
-lane2x = 320;
-lane3x = 480;
-lane4x = 640;
-
-lane0y = 800;
-lane1y = 800;
-lane2y = 800;
-lane3y = 800;
-lane4y = -400;
-randomize();
-timer = room_speed *  irandom_range(0,5); 
-//timer2 = room_speed *  irandom_range(0.5,2); 
-
-laneChangeDist = 160;
-currLaneChange = 0;
-ran = false;
-
-spawned = false;
-
-while (!spawned)
-{
-pos = irandom_range(0,4);
-if(pos == 0 && lane0 == false){
-	lane0 = true;
-	x = lane0x;
-	y = lane0y;
+ran = 0;
+ranx = random_range(0,3);
+if(ran == 0){ // Mid lane cars
+	sprite_index = spr_fancy_blue;
+	fancy_content = [spr_fancy_blue,spr_fancy_blue_left,spr_fancy_blue_right,spr_fancy_blue_brake];	
+	x = lanex[ranx];
+	y = laney[ranx];
 	direction = -90;
-	speed = irandom_range(-6,-5);
-	spawned = true;
-}
-if(pos == 1 && lane1 == false){
-	lane1 = true;
-	x = lane1x;
-	y = lane1y;	
-	direction = -90;
-	speed = irandom_range(-5,-4);
-	spawned = true;
-}
-if(pos == 2 && lane2 == false){
-	lane2 = true;
-	x = lane2x;
-	y = lane2y;		
-	direction = -90;
-	speed = irandom_range(-4,-3);
-	spawned = true;
-}
-if(pos == 3 && lane3 == false){
-	lane3 = true;
-	x = lane3x;
-	y = lane3y;	
-	direction = -90;
-	speed = irandom_range(-4, -3);
-	spawned = true;
+	speed = random_range(-8, -1);
 }
 
-if(pos == 4 && lane4 == false){
-	lane4 = true;
-	x = lane4x;
-	y = lane4y;	
-	direction = 90;
-	speed = irandom_range(1,2);
-	spawned = true;
-}
-}
-/*
-print("pos: ", pos, "\n");
-print("lane0: ", lane0, "\n");
-print("lane1: ", lane1, "\n");
-print("lane2: ", lane2, "\n");
-print("lane3: ", lane3, "\n");
-print("lane4: ", lane4, "\n");
-*/
+
 
