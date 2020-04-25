@@ -6,9 +6,9 @@ menu_y = y;
 button_h = 32;
 
 // buttons
-button[0] = "Sound";
-button[1] = "Music";
-button[2] = "BABY mode";
+button[0] = "Sound coming soon";
+button[1] = "Music coming soon";
+button[2] = "BABY mode coming soon";
 button[3] = "Back";
 buttons = array_length_1d(button);
 
