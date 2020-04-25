@@ -21,3 +21,10 @@ else{
 	}
 }
 
+if(place_meeting(x,y,obj_motor))
+{
+	if(!(keyboard_check(ord("Q"))) && !(keyboard_check(ord("E"))))
+	{ 
+		score -= 50;	
+	}
+}
