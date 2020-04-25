@@ -77,6 +77,17 @@ if(keyboard_check(ord("F"))){ //shift down
 	}
 }
 
+
+
+switch (gear)
+   {
+   case 1: audio_sound_pitch(s_engine, 0.8); break;
+   case 2: audio_sound_pitch(s_engine, 0.9); break;
+   case 3: audio_sound_pitch(s_engine, 0.95); break;
+   case 4: audio_sound_pitch(s_engine, 1); break;
+   case 5: audio_sound_pitch(s_engine, 1.1); break;
+	}
+
 //APPLY MOVEMENT
 //if (!(y + motorcycleSpeed > lowerBound || y + motorcycleSpeed < upperBound))
 	//y += motorcycleSpeed;
