@@ -1,10 +1,10 @@
 
 
-lane0x = 70;
-lane1x = 220;
-lane2x = 400;
-lane3x = 550;
-lane4x = 710;
+lane0x = 64;
+lane1x = 224;
+lane2x = 384;
+lane3x = 544;
+lane4x = 704;
 
 lane0y = 800;
 lane1y = 800;
@@ -21,6 +21,9 @@ ran = false;
 
 spawned = false;
 
+startOfTurn = false;
+slowTurn = false;
+
 while (!spawned)
 {
 pos = irandom_range(0,4);
@@ -29,7 +32,7 @@ if(pos == 0 && lane0 == false){
 	x = lane0x;
 	y = lane0y;
 	direction = -90;
-	speed = irandom_range(-6,-5);
+	speed = irandom_range(-8,-6);
 	spawned = true;
 }
 if(pos == 1 && lane1 == false){
@@ -37,7 +40,7 @@ if(pos == 1 && lane1 == false){
 	x = lane1x;
 	y = lane1y;	
 	direction = -90;
-	speed = irandom_range(-5,-4);
+	speed = irandom_range(-8,-6);
 	spawned = true;
 }
 if(pos == 2 && lane2 == false){
@@ -45,7 +48,7 @@ if(pos == 2 && lane2 == false){
 	x = lane2x;
 	y = lane2y;		
 	direction = -90;
-	speed = irandom_range(-4,-3);
+	speed = irandom_range(-8,-6);
 	spawned = true;
 }
 if(pos == 3 && lane3 == false){
@@ -53,7 +56,7 @@ if(pos == 3 && lane3 == false){
 	x = lane3x;
 	y = lane3y;	
 	direction = -90;
-	speed = irandom_range(-4, -3);
+	speed = irandom_range(-8,-6);
 	spawned = true;
 }
 
@@ -66,12 +69,5 @@ if(pos == 4 && lane4 == false){
 	spawned = true;
 }
 }
-/*
-print("pos: ", pos, "\n");
-print("lane0: ", lane0, "\n");
-print("lane1: ", lane1, "\n");
-print("lane2: ", lane2, "\n");
-print("lane3: ", lane3, "\n");
-print("lane4: ", lane4, "\n");
-*/
+
 

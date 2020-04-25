@@ -21,6 +21,9 @@ ran = false;
 
 spawned = false;
 
+startOfTurn = false;
+slowTurn = false;
+
 while (!spawned)
 {
 pos = irandom_range(0,4);

@@ -22,7 +22,38 @@ if(keyboard_check(ord("S"))){ //down
 		y+= 3;
 	else if (motorcycleSpeed < 3)
 		motorcycleSpeed += .5;
-	
+}
+
+turnSignalTimer--;
+if(keyboard_check(ord("Q")) && turnSignalTimer <= 0){ //left
+	if (sprite_index == spr_mc_left_signal)
+	{
+		sprite_index = spr_mc_base;
+		isTurning = false;
+	}
+		
+	else
+	{
+		sprite_index = spr_mc_left_signal;
+		isTurning = true;
+	}
+		
+	turnSignalTimer = 10;
+}
+if(keyboard_check(ord("E")) && turnSignalTimer <= 0){ //right
+if (sprite_index == spr_mc_right_signal)
+{
+		sprite_index = spr_mc_base;
+		isTurning = false;
+}
+		
+	else
+	{
+		sprite_index = spr_mc_right_signal;
+		isTurning = true;
+	}
+		
+	turnSignalTimer = 10;
 }
 
 

@@ -1,12 +1,8 @@
 if(sprite_index == right){
 	if(currLaneChange < laneChangeDist)
 	{
-		x += 5;
-		currLaneChange += 5;
-	}
-
-	if(currLaneChange == laneChangeDist)
-	{
+		if (startOfTurn)
+		{
 		if (pos == 0)
 		{
 			lane0 = false
@@ -26,7 +22,25 @@ if(sprite_index == right){
 		{
 			lane3 = false
 			lane4 = true;
+		}	
+		startOfTurn = false;
 		}
+		
+		if (slowTurn)
+		{
+			x += 1;
+		currLaneChange += 1;
+		}
+		
+		else
+		{
+		x += 5;
+		currLaneChange += 5;
+		}
+	}
+
+	if(currLaneChange == laneChangeDist)
+	{
 		
 		ran = false;
 		pos++;
@@ -40,12 +54,8 @@ if(sprite_index == right){
 if(sprite_index == left){
 	if(currLaneChange < laneChangeDist)
 	{
-		x -= 5;
-		currLaneChange += 5;
-	}
-
-	if(currLaneChange == laneChangeDist)
-	{
+		if (startOfTurn)
+		{
 		if (pos == 4)
 		{
 			lane4 = false
@@ -66,6 +76,24 @@ if(sprite_index == left){
 			lane1 = false
 			lane0 = true;
 		}
+		startOfTurn = false;
+		}
+		
+		if (slowTurn)
+		{
+			x -= 1;
+		currLaneChange += 1;
+		}
+		
+		else
+		{
+		x -= 5;
+		currLaneChange += 5;
+		}
+	}
+
+	if(currLaneChange == laneChangeDist)
+	{
 		
 		ran = false;
 		pos--;
@@ -74,3 +102,4 @@ if(sprite_index == left){
 		timer = room_speed *  irandom_range(0,5); 
 	}
 }
+
