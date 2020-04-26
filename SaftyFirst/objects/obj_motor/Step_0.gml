@@ -68,6 +68,7 @@ if(keyboard_check(ord("R"))){ //shift up
 	if (gear < 5 && shiftTimer == 0)
 	{		
 		gear++;
+		health = gear;
 		shiftTimer = 60;
 		lives = shiftTimer;
 	}
@@ -81,6 +82,7 @@ if(keyboard_check(ord("F"))){ //shift down
 	if (gear > 1 && shiftTimer == 0)
 	{
 		gear--;
+		health = gear;
 		shiftTimer = 60;
 		lives = shiftTimer;
 		motorcycleSpeed = gear*-2;
