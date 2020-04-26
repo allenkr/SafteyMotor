@@ -15,7 +15,7 @@ if (timer > 0)
 }
 
 else if(!ran){
-	loc = irandom_range(0,2);
+	loc = irandom_range(0,1);
 	
 	if(loc == 0 && ( (pos ==0 && !lane1) || (pos == 1 && !lane2) || (pos ==2 && !lane3) || (pos ==3 && !lane4))){
 		sprite_index = right;
@@ -100,6 +100,7 @@ else if(pos == 4 && lane4 == false){
 	spawned = true;
 }
 
+/*
 //place whereever is open
 else if(lane0 == false){
 	lane0 = true;
@@ -151,7 +152,8 @@ else if(lane4 == false){
 	spawned = true;
 }
 }
-
+*/
+}
 }
 else
 	proccessLineChange();

@@ -10,7 +10,7 @@ lane0y = 800;
 lane1y = 800;
 lane2y = 800;
 lane3y = 800;
-lane4y = -400;
+lane4y = 800;
 randomize();
 timer = room_speed *  irandom_range(0,5); 
 //timer2 = room_speed *  irandom_range(0.5,2); 
@@ -64,8 +64,8 @@ if(pos == 4 && lane4 == false){
 	lane4 = true;
 	x = lane4x;
 	y = lane4y;	
-	direction = 90;
-	speed = irandom_range(1,2);
+	direction = -90;
+	speed = irandom_range(-9,-7);
 	spawned = true;
 }
 }
