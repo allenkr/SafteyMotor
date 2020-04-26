@@ -35,7 +35,7 @@ isTurning = false;
 if(room == room_highway)
 {
 	textbox = instance_create_layer(x,y,"TextBox", obj_textbox_start);
-	for	(i = 0; i < 3; i++)
+	for	(i = 0; i < 2; i++)
 		instance_create_layer(0,0,lay_id2,obj_car);
 }
 
