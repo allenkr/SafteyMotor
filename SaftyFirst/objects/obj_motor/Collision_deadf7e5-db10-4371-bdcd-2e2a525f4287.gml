@@ -6,5 +6,5 @@ audio_stop_sound(s_engine);
 textbox = instance_create_layer(x,y,"TextBox", obj_textbox_dead);
 textbox.text = "You died because of hitting a green car!";
 textbox.text +="\n Your score was: ";
-textbox.text += round(string(score/room_speed));
+textbox.text += string(score/room_speed);
 */
