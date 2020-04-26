@@ -10,7 +10,6 @@ if(place_meeting(x,y,obj_motor)){
 		if(textbox == noone){
 			textbox = instance_create_layer(x,y,"TextBox", obj_textbox_middle_warning);
 		}
-		score -= 30;
 	}
 }
 else{
@@ -23,7 +22,7 @@ else{
 
 if(place_meeting(x,y,obj_motor))
 {
-	if(!(keyboard_check(ord("Q"))) && !(keyboard_check(ord("E"))))
+	if(!isTurning)
 	{ 
 		score -= 50;	
 	}
