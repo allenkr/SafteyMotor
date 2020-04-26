@@ -10,7 +10,7 @@ if (timer > 0)
 }
 
 else if(!ran){
-	loc = irandom_range(0,2);
+	loc = irandom_range(0,1);
 	
 	if(loc == 0 && ( (pos ==0 && !lane1) || (pos == 1 && !lane2) || (pos ==2 && !lane3) || (pos ==3 && !lane4))){
 		sprite_index = right;

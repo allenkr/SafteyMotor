@@ -69,21 +69,10 @@ lane3 = false;
 lane4 = false;
 	textbox = instance_create_layer(x,y,"TextBox", obj_textbox_level_3);
 		instance_create_layer(0,0,lay_id2,obj_car);
+		instance_create_layer(0,0,lay_id2,obj_car);
 		instance_create_layer(0,0,lay_id2,obj_fancy2);	
-		cid = [];
-	rando = [0,1];
-	lanex = [470,630,150,310];
-	
-	for	(i = 0; i < 3; i++){
-		r = irandom_range(0,1);
-		cid[i] = instance_create_layer(0,0,lay_id2,obj_fancy);
-		cid[i].x = lanex[i];
-		cid[i].ran =0;
-	}
-		
-	cid[0].fancys = [cid[1],cid[2]];
-	cid[1].fancys = [cid[0],cid[2]];
-	cid[2].fancys = [cid[0],cid[1]];
+		instance_create_layer(0,0,lay_id2,obj_fancy);	
+
 }
 if(room == room_level_4)
 {
