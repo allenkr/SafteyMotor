@@ -3,6 +3,7 @@
 //audio_play_sound(snd_background_sound,10,true);
 randomise();
 gear = 1;
+health = gear;
 shiftTimer = 60;
 lives = shiftTimer;
 motorcycleSpeed = -1.0;
