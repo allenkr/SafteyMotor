@@ -58,7 +58,10 @@ if (sprite_index == spr_mc_right_signal)
 
 
 if (shiftTimer > 0)
+{
 	shiftTimer--;
+	lives = shiftTimer;
+}
 	
 //gear shifts
 if(keyboard_check(ord("R"))){ //shift up
@@ -66,15 +69,27 @@ if(keyboard_check(ord("R"))){ //shift up
 	{		
 		gear++;
 		shiftTimer = 60;
+		lives = shiftTimer;
 	}
+	else if(gear < 5 && shiftTimer > 0)
+	{
+		score -=30;
+	}
+
 }
 if(keyboard_check(ord("F"))){ //shift down
 	if (gear > 1 && shiftTimer == 0)
 	{
 		gear--;
 		shiftTimer = 60;
+		lives = shiftTimer;
 		motorcycleSpeed = gear*-2;
 	}
+	else if(gear < 1 && shiftTimer > 0)
+	{
+		score -=30;
+	}
+
 }
 
 

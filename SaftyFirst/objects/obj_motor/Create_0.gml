@@ -4,6 +4,7 @@
 randomise();
 gear = 1;
 shiftTimer = 60;
+lives = shiftTimer;
 motorcycleSpeed = -1.0;
 lay_id = layer_get_id("Background");
 lay_id2 = layer_get_id("Instances");
