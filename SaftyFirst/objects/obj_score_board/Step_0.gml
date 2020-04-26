@@ -19,18 +19,22 @@ score += 10;
  //switch rooms
 if((score/room_speed) > lv1Score + lv2Score +lv3Score+lvdoneScore)
 {
+	instance_destroy(inst_7E1C01A0);
 	room_goto(room_end);//if you win
 }
 else if((score/room_speed) > lv1Score && room ==room_highway)
 {
+	instance_destroy(inst_3C71448D);
 	room_goto(room_level_1);
 }
 else if((score/room_speed) > lv1Score + lv2Score && room == room_level_1)
 {
+	instance_destroy(inst_165D1BBF);
 	room_goto(room_level_2);
 }
 else if((score/room_speed) > lv1Score + lv2Score +lv3Score && room ==room_level_2)
 {
+	instance_destroy(inst_3C61DACF);
 	room_goto(room_level_3);
 }
 /*

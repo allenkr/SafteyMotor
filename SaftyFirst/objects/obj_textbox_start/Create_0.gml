@@ -9,9 +9,10 @@ text[3] = "During your trip, you will encounter other drivers-- many are not pay
 	" react quickly in order to be safe."
 text[4] = "Use WASD to move. Press 'r' to shift up and 'f' to shift down"
 text[5] = "Shifting up increases your max speed; shifting down decreases it. Keep in mind you can't shift up "+
-	"multiple times in a row, you have to build up speed before doing so again or your engine will stall"
+	"multiple times in a row, you have to build up speed before doing so again or your engine will stall"+
+	"\n \n Your cool down is in the top right corner."
 text[6] = "Press 'e' and 'q' to turn signal right and left respectively"
-text[7] = "...Lets start!"
+text[7] = "...Lets start! \n \n You can push space to skip"
 
 
 text[0]= "Welcome to Safety Motor!";

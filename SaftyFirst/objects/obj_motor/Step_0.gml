@@ -58,7 +58,10 @@ if (sprite_index == spr_mc_right_signal)
 
 
 if (shiftTimer > 0)
+{
 	shiftTimer--;
+	lives = shiftTimer;
+}
 	
 //gear shifts
 if(keyboard_check(ord("R"))){ //shift up
@@ -66,16 +69,39 @@ if(keyboard_check(ord("R"))){ //shift up
 	{		
 		gear++;
 		shiftTimer = 60;
+		lives = shiftTimer;
 	}
+	else if(gear < 5 && shiftTimer > 0)
+	{
+		score -=30;
+	}
+
 }
 if(keyboard_check(ord("F"))){ //shift down
 	if (gear > 1 && shiftTimer == 0)
 	{
 		gear--;
 		shiftTimer = 60;
+		lives = shiftTimer;
 		motorcycleSpeed = gear*-2;
 	}
+	else if(gear < 1 && shiftTimer > 0)
+	{
+		score -=30;
+	}
+
 }
+
+
+
+switch (gear)
+   {
+   case 1: audio_sound_pitch(s_engine, 0.8); break;
+   case 2: audio_sound_pitch(s_engine, 0.9); break;
+   case 3: audio_sound_pitch(s_engine, 0.95); break;
+   case 4: audio_sound_pitch(s_engine, 1); break;
+   case 5: audio_sound_pitch(s_engine, 1.1); break;
+	}
 
 //APPLY MOVEMENT
 //if (!(y + motorcycleSpeed > lowerBound || y + motorcycleSpeed < upperBound))
