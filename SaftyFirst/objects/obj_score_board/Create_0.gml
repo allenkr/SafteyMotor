@@ -2,7 +2,7 @@
 // You can write your code in this editor
 startScore = 500;
 lv1Score = 800;
-lv2Score = 200//1000;
+lv2Score = 1000//1000;
 lv3Score = 1200;
 lvdoneScore = 2500;
 
