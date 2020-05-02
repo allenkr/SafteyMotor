@@ -5,7 +5,7 @@ randomise();
 gear = 1;
 health = gear;
 shiftTimer = 60;
-lives = shiftTimer;
+lives = shiftTimer;//cool down
 motorcycleSpeed = -1.0;
 lay_id = layer_get_id("Background");
 lay_id2 = layer_get_id("Instances");
