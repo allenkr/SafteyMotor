@@ -14,8 +14,8 @@ text[5] = "Shifting up increases your max speed; shifting down decreases it. Kee
 text[6] = "Press 'e' and 'q' to turn signal right and left respectively"
 text[7] = "Remember: 'lane-splitting', or riding between lanes, may be legal in some states-- but it's dangerous" +
 " everywhere! Try to stay well within your lane to avoid hitting other drivers.";
-text[8] = "Trying to shift too quickly, turning without signalling, and lane-splitting will all take points off "+
-"of your total points, so try to ride safely! If you lose too many points, you will end up in jail!";
+text[8] = "Trying to shift too quickly, turning without signalling, and lane-splitting will all reduce "+
+"your total points. Riding at high speeds will increase your points. If you lose too many points, you will fail!";
 text[9] = "...Lets start! \n \n You can push space to skip"
 
 

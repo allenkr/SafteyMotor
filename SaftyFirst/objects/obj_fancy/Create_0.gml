@@ -26,7 +26,7 @@ slowTurn = true;
 
 while (!spawned)
 {
-pos = irandom_range(0,4);
+pos = irandom_range(0,3);
 if(pos == 0 && lane0 == false){
 	lane0 = true;
 	x = lane0x;
@@ -60,14 +60,7 @@ if(pos == 3 && lane3 == false){
 	spawned = true;
 }
 
-if(pos == 4 && lane4 == false){
-	lane4 = true;
-	x = lane4x;
-	y = lane4y;	
-	direction = -90;
-	speed = irandom_range(-9,-7);
-	spawned = true;
-}
+
 }
 /*
 print("pos: ", pos, "\n");
